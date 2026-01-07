@@ -26,8 +26,7 @@ echo ========================================
 echo                 Login
 echo ========================================
 echo.
-set /p choice=Enter password:
-if "%choice%"=="ps302" goto load
+goto load
 
 (cls & echo ██╗   ██╗ ██████╗ ██╗  ████████╗ █████╗ 
 echo ██║   ██║██╔═══██╗██║  ╚══██╔══╝██╔══██╗
@@ -1573,4 +1572,5 @@ echo.
 echo Retrieving full list of installed programs...
 powershell "Get-ItemProperty HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*,HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\* | Select-Object DisplayName,DisplayVersion | Where-Object { $_.DisplayName } | Sort-Object DisplayName"
 pause
+
 goto menu
