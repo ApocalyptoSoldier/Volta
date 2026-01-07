@@ -1,7 +1,6 @@
-========================================
-             About Volta
-========================================
 
+             About Volta
+             
 Volta is created to help the user and make it easier.
 And no if you type 69 and it says that it's instaling a virus it's not it's just a prank :)
 Current development of Volta is covered by Bbloks(me), and access to beta or patch versions is 
@@ -10,18 +9,14 @@ To use Volta or any of the code you need to ask me personaly for my agreement.
 Soon there will be setup tutorials on my channel "Bbloks_rblx".
 If you are experiencing lag reset your pc if not, delete Volta and restart.
 
-========================================
                 Info
-========================================
 
 Current version: 1.6 patch
 Current version creation date: 23.12.2025
 Last version update date: 25.12.2025
 Current Volta developer: Bbloks
 
-========================================
               Update Log
-========================================
 
 1. Adapted things to the new windows update that includes the removal of "wmic".
 2. Small UI update
