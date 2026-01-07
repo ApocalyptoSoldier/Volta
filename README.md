@@ -40,6 +40,6 @@ The sub-menu contains:
  This sub-menu contains:
   Color Codes/Color Command Logic
   Startup Tutorial
- (Take this menu with a few grains of salt, because it's still under heavy development, thank you!)
+ Take this menu with a few grains of salt, because it's still under heavy development, thank you!
 10. A lot of bug fixes and others...
 
