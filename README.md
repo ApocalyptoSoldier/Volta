@@ -13,8 +13,11 @@ If you are experiencing lag reset your pc if not, delete Volta and restart.
 Info
 
 Current version: 1.6 patch
+
 Current version creation date: 23.12.2025
+
 Last version update date: 25.12.2025
+
 Current Volta developer: Bbloks
 
 Update Log
