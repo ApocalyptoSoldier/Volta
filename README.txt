@@ -60,7 +60,7 @@ The biggest and longest update that I've done for Volta
 4. Fixed "System Uptime" crashing Volta.
 5. Changed "Network Diagnostics" to "Network Information" with no functionality change (num 2)
 6. Changed the System Information (num 1) to be more sorted and added more information to it
-7. Changed copletely how System Resourse Monitoring (num 7) works so it can be more useful
+7. Changed completely how System Resourse Monitoring (num 7) works so it can be more useful
 8. Changed "Mallware Scan" to "System Security" (num 12) which added a sub menu with:
     "Firewall Toggle" sub menu which has:
      "Turn Firewall ON"
