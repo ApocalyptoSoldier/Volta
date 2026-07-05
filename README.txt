@@ -13,7 +13,6 @@
 ========================================
 
 Volta is created to help the user and make it easier.
-And no if you type 69 and it says that it's instaling a virus it's not it's just a prank :)
 Current development of Volta is covered by Bbloks(me), and access to beta or patch versions is
 strictly locked by the password you will get from me.
 To use Volta or any of the code you need to ask me personaly for my agreement.
