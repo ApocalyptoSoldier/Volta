@@ -12,12 +12,21 @@
              About Volta
 ========================================
 
-Volta is created to help the user and make it easier.
-Current development of Volta is covered by Bbloks(me), and access to beta or patch versions is
-strictly locked by the password you will get from me.
-To use Volta or any of the code you need to ask me personaly for my agreement.
-Soon there will be setup tutorials on my channel "Bbloks_rblx".
-If you are experiencing lag reset your pc if not, delete Volta and restart.
+Volta was created to simplify Windows system management and give users a cleaner,
+centralized command-line interface. 
+
+The project is entirely built and maintained by Bbloks. 
+While Volta started as a personal hobby project using tutorials and AI-generated code, 
+it has evolved over the past three years into an open-source tool driven by a desire to learn and improve. 
+
+Volta is now fully open-source—no passwords, no gatekeeping. 
+You are welcome to explore the code, test it, and provide feedback. 
+If you plan to use major portions of the code for your own public projects, 
+a small credit or shout-out is greatly appreciated!
+
+Note: Volta 1.7 features optimized, zero-lag animations. 
+However, if you experience any unexpected lag or stability issues,
+please report them in the GitHub issues section so I can push a hotfix!
 
 ========================================
              Version Info
