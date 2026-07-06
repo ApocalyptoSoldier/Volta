@@ -30,42 +30,6 @@ echo  ╚████╔╝ ╚██████╔╝███████╗�
 echo   ╚═══╝   ╚═════╝ ╚══════╝╚═╝   ╚═╝  ╚═╝)
 %scroll%
 
-:start
-(cls & echo ██╗   ██╗ ██████╗ ██╗  ████████╗ █████╗ 
-echo ██║   ██║██╔═══██╗██║  ╚══██╔══╝██╔══██╗
-echo ██║   ██║██║   ██║██║     ██║   ███████║
-echo ╚██╗ ██╔╝██║   ██║██║     ██║   ██╔══██║
-echo  ╚████╔╝ ╚██████╔╝███████╗██║   ██║  ██║
-echo   ╚═══╝   ╚═════╝ ╚══════╝╚═╝   ╚═╝  ╚═╝)
-%scroll%
-echo ========================================
-%scroll%
-echo                 Login
-%scroll%
-echo ========================================
-%scroll%
-echo.
-%scroll%
-set /p choice=Enter password:
-if "%choice%"=="ps302" goto load
-
-(cls & echo ██╗   ██╗ ██████╗ ██╗  ████████╗ █████╗ 
-echo ██║   ██║██╔═══██╗██║  ╚══██╔══╝██╔══██╗
-echo ██║   ██║██║   ██║██║     ██║   ███████║
-echo ╚██╗ ██╔╝██║   ██║██║     ██║   ██╔══██║
-echo  ╚████╔╝ ╚██████╔╝███████╗██║   ██║  ██║
-echo   ╚═══╝   ╚═════╝ ╚══════╝╚═╝   ╚═╝  ╚═╝)
-%scroll%
-echo ========================================
-%scroll%
-echo             Invalid option
-%scroll%
-echo ========================================
-%scroll%
-echo.
-timeout /t 1 >nul
-goto start
-
 :load
 (cls & echo ██╗   ██╗ ██████╗ ██╗  ████████╗ █████╗ 
 echo ██║   ██║██╔═══██╗██║  ╚══██╔══╝██╔══██╗
@@ -83,7 +47,7 @@ echo ========================================
 echo.
 %scroll%
 echo Loading please wait░░░░░░░░░░░░░░░
-pathping 127.0.0.1 -n -q 1 -p 100 >nul
+%scroll%
 
 :load
 (cls & echo ██╗   ██╗ ██████╗ ██╗  ████████╗ █████╗ 
@@ -111,7 +75,7 @@ echo                 Loading
 echo ========================================
 echo.
 echo Loading please wait█░░░░░░░░░░░░░░
-pathping 127.0.0.1 -n -q 1 -p 100 >nul
+%scroll%
 
 
 :load
@@ -126,7 +90,7 @@ echo                 Loading
 echo ========================================
 echo.
 echo Loading please wait██░░░░░░░░░░░░░
-pathping 127.0.0.1 -n -q 1 -p 100 >nul
+%scroll%
 
 :load
 (cls & echo ██╗   ██╗ ██████╗ ██╗  ████████╗ █████╗ 
@@ -140,7 +104,7 @@ echo                 Loading
 echo ========================================
 echo.
 echo Loading please wait███░░░░░░░░░░░░
-pathping 127.0.0.1 -n -q 1 -p 100 >nul
+%scroll%
 
 :load
 (cls & echo ██╗   ██╗ ██████╗ ██╗  ████████╗ █████╗ 
@@ -154,7 +118,8 @@ echo                 Loading
 echo ========================================
 echo.
 echo Loading please wait████░░░░░░░░░░░
-pathping 127.0.0.1 -n -q 1 -p 100 >nul
+%scroll%
+%scroll%
 
 :load
 (cls & echo ██╗   ██╗ ██████╗ ██╗  ████████╗ █████╗ 
@@ -168,7 +133,8 @@ echo                 Loading
 echo ========================================
 echo.
 echo Loading please wait█████░░░░░░░░░░
-pathping 127.0.0.1 -n -q 1 -p 100 >nul
+%scroll%
+%scroll%
 
 
 :load
@@ -183,7 +149,8 @@ echo                 Loading
 echo ========================================
 echo.
 echo Loading please wait██████░░░░░░░░░
-pathping 127.0.0.1 -n -q 1 -p 100 >nul
+%scroll%
+%scroll%
 
 :load
 (cls & echo ██╗   ██╗ ██████╗ ██╗  ████████╗ █████╗ 
@@ -197,7 +164,8 @@ echo                 Loading
 echo ========================================
 echo.
 echo Loading please wait███████░░░░░░░░
-pathping 127.0.0.1 -n -q 1 -p 100 >nul
+%scroll%
+%scroll%
 
 :load
 (cls & echo ██╗   ██╗ ██████╗ ██╗  ████████╗ █████╗ 
@@ -211,7 +179,8 @@ echo                 Loading
 echo ========================================
 echo.
 echo Loading please wait████████░░░░░░░
-pathping 127.0.0.1 -n -q 1 -p 100 >nul
+%scroll%
+%scroll%
 
 :load
 (cls & echo ██╗   ██╗ ██████╗ ██╗  ████████╗ █████╗ 
@@ -225,7 +194,8 @@ echo                 Loading
 echo ========================================
 echo.
 echo Loading please wait█████████░░░░░░
-pathping 127.0.0.1 -n -q 1 -p 100 >nul
+%scroll%
+%scroll%
 
 :load
 (cls & echo ██╗   ██╗ ██████╗ ██╗  ████████╗ █████╗ 
@@ -239,7 +209,8 @@ echo                 Loading
 echo ========================================
 echo.
 echo Loading please wait██████████░░░░░
-pathping 127.0.0.1 -n -q 1 -p 100 >nul
+%scroll%
+%scroll%
 
 :load
 (cls & echo ██╗   ██╗ ██████╗ ██╗  ████████╗ █████╗ 
@@ -253,7 +224,8 @@ echo                 Loading
 echo ========================================
 echo.
 echo Loading please wait███████████░░░░
-pathping 127.0.0.1 -n -q 1 -p 100 >nul
+%scroll%
+%scroll%
 
 :load
 (cls & echo ██╗   ██╗ ██████╗ ██╗  ████████╗ █████╗ 
@@ -267,7 +239,8 @@ echo                 Loading
 echo ========================================
 echo.
 echo Loading please wait████████████░░░
-pathping 127.0.0.1 -n -q 1 -p 100 >nul
+%scroll%
+%scroll%
 
 :load
 (cls & echo ██╗   ██╗ ██████╗ ██╗  ████████╗ █████╗ 
@@ -281,7 +254,8 @@ echo                 Loading
 echo ========================================
 echo.
 echo Loading please wait█████████████░░
-pathping 127.0.0.1 -n -q 1 -p 100 >nul
+%scroll%
+%scroll%
 
 :load
 (cls & echo ██╗   ██╗ ██████╗ ██╗  ████████╗ █████╗ 
@@ -295,7 +269,8 @@ echo                 Loading
 echo ========================================
 echo.
 echo Loading please wait██████████████░
-pathping 127.0.0.1 -n -q 1 -p 100 >nul
+%scroll%
+%scroll%
 
 :load
 (cls & echo ██╗   ██╗ ██████╗ ██╗  ████████╗ █████╗ 
@@ -309,7 +284,8 @@ echo                 Loading
 echo ========================================
 echo.
 echo Loading please wait███████████████
-pathping 127.0.0.1 -n -q 1 -p 100 >nul
+%scroll%
+%scroll%
 
 :menu
 (cls & echo ██╗   ██╗ ██████╗ ██╗  ████████╗ █████╗ 
@@ -2828,7 +2804,7 @@ echo 5. Changed "Network Diagnostics" to "Network Information" with no functiona
 %scroll%
 echo 6. Changed the System Information (num 1) to be more sorted and added more information to it
 %scroll%
-echo 7. Changed completely how System Resourse Monitoring (num 7) works so it can be more useful
+echo 7. Changed copletely how System Resourse Monitoring (num 7) works so it can be more useful
 %scroll%
 echo 8. Changed "Mallware Scan" to "System Security" (num 12) which added a sub menu with:
 %scroll%
@@ -2893,7 +2869,7 @@ echo     Defragment Storage
 echo 4. Fixed "System Uptime" crashing Volta.
 echo 5. Changed "Network Diagnostics" to "Network Information" with no functionality change (num 2)
 echo 6. Changed the System Information (num 1) to be more sorted and added more information to it
-echo 7. Changed completely how System Resourse Monitoring (num 7) works so it can be more useful
+echo 7. Changed copletely how System Resourse Monitoring (num 7) works so it can be more useful
 echo 8. Changed "Mallware Scan" to "System Security" (num 12) which added a sub menu with:
 echo     "Firewall Toggle" sub menu which has:
 echo      "Turn Firewall ON"
