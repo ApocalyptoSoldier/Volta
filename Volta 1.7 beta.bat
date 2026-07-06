@@ -395,7 +395,6 @@ if "%choice%"=="17" goto about
 if "%choice%"=="19" goto resetcmd
 if "%choice%"=="20" goto start
 if "%choice%"=="21" exit 
-if "%choice%"=="69" goto hecks
 if "%choice%"=="help" goto help2
 if "%choice%"=="Help" goto help2
 if "%choice%"=="setup" goto setup
@@ -408,12 +407,11 @@ if "%choice%"=="secret" goto rickroll
 if "%choice%"=="Secret" goto rickroll
 if "%choice%"=="bird" goto bird
 if "%choice%"=="Bird" goto bird
-if "%choice%"=="me hecker" goto heckssetup
-if "%choice%"=="Me hecker" goto heckssetup
+if "%choice%"=="matrixeffcect" goto heckssetup
+if "%choice%"=="matrixeffect" goto heckssetup
 if "%choice%"=="Boost" goto boost
 if "%choice%"=="boost" goto boost
 if "%choice%"=="18" goto searchapp
-if "%choice%"=="67" goto notuff
 if "%choice%"=="info" goto info2
 if "%choice%"=="Info" goto info2
 if "%choice%"=="exit" exit
@@ -1678,32 +1676,6 @@ echo.
 pause
 goto manegment
 
-:notuff
-(cls & echo ██╗   ██╗ ██████╗ ██╗  ████████╗ █████╗ 
-echo ██║   ██║██╔═══██╗██║  ╚══██╔══╝██╔══██╗
-echo ██║   ██║██║   ██║██║     ██║   ███████║
-echo ╚██╗ ██╔╝██║   ██║██║     ██║   ██╔══██║
-echo  ╚████╔╝ ╚██████╔╝███████╗██║   ██║  ██║
-echo   ╚═══╝   ╚═════╝ ╚══════╝╚═╝   ╚═╝  ╚═╝)
-%scroll%
-echo ========================================
-%scroll%
-echo         Your not tough lil bro
-%scroll%
-echo ========================================
-
-(cls & echo ██╗   ██╗ ██████╗ ██╗  ████████╗ █████╗ 
-echo ██║   ██║██╔═══██╗██║  ╚══██╔══╝██╔══██╗
-echo ██║   ██║██║   ██║██║     ██║   ███████║
-echo ╚██╗ ██╔╝██║   ██║██║     ██║   ██╔══██║
-echo  ╚████╔╝ ╚██████╔╝███████╗██║   ██║  ██║
-echo   ╚═══╝   ╚═════╝ ╚══════╝╚═╝   ╚═╝  ╚═╝)
-echo ========================================
-echo         Your not tough lil bro
-echo ========================================
-timeout /t 3 >nul
-goto menu
-
 :boost
 (cls & echo ██╗   ██╗ ██████╗ ██╗  ████████╗ █████╗ 
 echo ██║   ██║██╔═══██╗██║  ╚══██╔══╝██╔══██╗
@@ -2574,21 +2546,38 @@ echo ========================================
 %scroll%
 echo.
 %scroll%
-echo Volta is created to help the user and make it easier.
+echo Volta was created to simplify Windows system management and give users a cleaner,
 %scroll%
-echo And no if you type 69 and it says that it's instaling a virus it's not it's just a prank :)
-%scroll%
-echo Current development of Volta is covered by Bbloks(me), and access to beta or patch versions is 
-%scroll%
-echo strictly locked by the password you will get from me.
-%scroll%
-echo To use Volta or any of the code you need to ask me personaly for my agreement.
-%scroll%
-echo Soon there will be setup tutorials on my channel "Bbloks_rblx".
-%scroll%
-echo If you are experiencing lag reset your pc if not, delete Volta and restart.
+echo centralized command-line interface. 
 %scroll%
 echo.
+%scroll%
+echo The project is entirely built and maintained by Bbloks. 
+%scroll%
+echo While Volta started as a personal hobby project using tutorials and AI-generated code, 
+%scroll%
+echo it has evolved over the past three years into an open-source tool driven by a desire to learn and improve. 
+%scroll%
+echo.
+%scroll%
+echo Volta is now fully open-source—no passwords, no gatekeeping. 
+%scroll%
+echo You are welcome to explore the code, test it, and provide feedback. 
+%scroll%
+echo If you plan to use major portions of the code for your own public projects, 
+%scroll%
+echo a small credit or shout-out is greatly appreciated!
+%scroll%
+echo.
+%scroll%
+echo Note: Volta 1.7 features optimized, zero-lag animations. 
+%scroll%
+echo However, if you experience any unexpected lag or stability issues,
+%scroll%
+echo please report them in the GitHub issues section so I can push a hotfix!
+%scroll%
+echo.
+%scroll%
 
 (cls & echo ██╗   ██╗ ██████╗ ██╗  ████████╗ █████╗ 
 echo ██║   ██║██╔═══██╗██║  ╚══██╔══╝██╔══██╗
@@ -2600,13 +2589,21 @@ echo ========================================
 echo              About Volta
 echo ========================================
 echo.
-echo Volta is created to help the user and make it easier.
-echo And no if you type 69 and it says that it's instaling a virus it's not it's just a prank :)
-echo Current development of Volta is covered by Bbloks(me), and access to beta or patch versions is 
-echo strictly locked by the password you will get from me.
-echo To use Volta or any of the code you need to ask me personaly for my agreement.
-echo Soon there will be setup tutorials on my channel "Bbloks_rblx".
-echo If you are experiencing lag reset your pc if not, delete Volta and restart.
+echo Volta was created to simplify Windows system management and give users a cleaner,
+echo centralized command-line interface. 
+echo.
+echo The project is entirely built and maintained by Bbloks. 
+echo While Volta started as a personal hobby project using tutorials and AI-generated code, 
+echo it has evolved over the past three years into an open-source tool driven by a desire to learn and improve. 
+echo.
+echo Volta is now fully open-source—no passwords, no gatekeeping. 
+echo You are welcome to explore the code, test it, and provide feedback. 
+echo If you plan to use major portions of the code for your own public projects, 
+echo a small credit or shout-out is greatly appreciated!
+echo.
+echo Note: Volta 1.7 features optimized, zero-lag animations. 
+echo However, if you experience any unexpected lag or stability issues,
+echo please report them in the GitHub issues section so I can push a hotfix!
 echo.
 pause
 goto about
@@ -3233,14 +3230,14 @@ echo             Unique commands
 echo ========================================
 echo.
 echo DISCLAIMER:YOU HAVE TO TYPE THESE COMMANDS TO RUN THEM(e.g., setup)
-echo 1. Setup (Setup Volta)
-echo 2. Color (Customize your Volta)
-echo 3. Bird (Just a dancing rainbow bird)
-echo 4. Me hecker (Runs a matrix rain)
+echo 1. setup (Setup Volta)
+echo 2. color (Customize your Volta)
+echo 3. bird (Just a dancing rainbow bird)
+echo 4. matrixeffect (Runs a matrix rain)
 echo 5. Boost (Runs commands for boosting)
-echo 6. Exit (21 alternative)
-echo 7. Help (All of the  tutorials into one)
-echo 8. Info (Has information of what specific cmds do)
+echo 6. exit (21 alternative)
+echo 7. help (All of the  tutorials into one)
+echo 8. info (Has information of what specific cmds do)
 echo 7. find it out yourself
 echo 8. another *secret* one
 echo.
